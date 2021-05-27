@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap');
+
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('bg.jpg');
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  height: 100%;
+}
+
+#profile-pic{
+background-image: url('profilePic.jpg');
+height: 200px;
+width: 200px;
+background-size: cover;
+background-repeat: no-repeat;
+margin: 0 auto 10px auto;
+border-radius: 8px;
+}
+
+#main-nav{
+  background-image: linear-gradient(to left,white, rgb(0, 123, 255));
+}
+
+.card{
+  margin: 10px;
+  background-color: rgba(255, 255,255, 0.85);
+  font-family: 'Share Tech', monospace;
+}
+
+.card-text{
+  font-size: larger;
+  font-weight: 400;
+}
+
+.container-fluid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary{
+  max-width: 120px;
+  margin-bottom: 10px;
+}
+
+.spinner-border{
+  margin: 0 auto;
+}
+
+#about-container{
+  margin: 10px;
+  background-color: rgba(255, 255,255, 0.7);
+  border-radius: 8px;
+}
+
+#about-container p {
+  font-size: 26px;
+  font-family: 'Share Tech', monospace;
+}
+
+#about-heading{
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+  padding-bottom: 20px;
+  font-size: 62px;
+}
